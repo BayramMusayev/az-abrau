@@ -1,0 +1,1013 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+nav {
+  background-color: #030303;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 10px 100px;
+  width: 50px;
+  height: 65px;
+}
+
+.iconNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navli {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar i:hover {
+  color: #e7d2bb;
+}
+
+.navli a {
+  text-decoration: none;
+}
+
+.navli a :hover {
+  color: #e7d2bb;
+}
+
+.navli li {
+  list-style-type: none;
+  margin: 35px 10px;
+  color: #e4e4e4;
+  font-size: 13px;
+  text-align: left;
+}
+
+.search {
+  margin: auto 0 auto auto;
+}
+
+.search i {
+  color: #fff;
+}
+
+.icon {
+  margin: auto;
+}
+
+.icon i {
+  color: #fff;
+  margin-right: 10px;
+}
+
+/* section 1 */
+
+.header {
+  background-image: url("./images/andrea-cairone-53ark9ceU8A-unsplash.png");
+  height: 200vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header .container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.lorem {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+}
+
+.headerAbrau {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerAbrau img {
+  margin: 50px;
+}
+
+.headerAbrau p {
+  width: 400px;
+}
+
+.hederSeki {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hederSeki h3 {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 96px;
+  align-items: center;
+  color: #ef9700;
+  margin-bottom: 40px;
+}
+
+.hederSeki .lorem {
+  width: 550px;
+  color: #fff;
+}
+
+.aboutSection {
+  background-color: #f4e5d4;
+}
+
+.boss {
+  display: flex;
+  padding: 0px 50px;
+}
+
+.boss img {
+  max-width: 500px;
+  height: 500px;
+}
+
+.bossOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.news-slider .owl-nav,
+.orders-slider .owl-nav {
+  display: flex !important;
+  justify-content: center;
+  font-size: 4rem;
+  color: #e60e07;
+  gap: 20px;
+}
+
+.news-slider {
+  position: relative;
+}
+
+.owl-carousel .owl-stage {
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+/* .owl-carousel .owl-item {
+  min-width: 500px;
+} */
+
+.new-slider-button:hover {
+  opacity: 1;
+  transition: 0.2s ease;
+}
+
+.new-slider-button h3 {
+  position: absolute;
+  width: 250px;
+  color: aliceblue;
+  top: 30px;
+  font-size: 30px;
+  left: 30px;
+  line-height: 32px;
+}
+
+.new-slider-button a {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  color: #fafafd;
+}
+
+.new-slider-button a {
+  opacity: 0;
+}
+
+.news-slider .item img {
+  transition: 0.5s;
+}
+
+.news-slider .item a {
+  transition: 0.5s;
+}
+
+.news-slider .item:hover a {
+  opacity: 1;
+}
+
+.news-slider .item:hover img {
+  transition: 0.5s;
+  transform: scale(1.1);
+  transition-duration: 2s;
+}
+
+.news-slider {
+  position: absolute;
+}
+
+.news-slider .item img {
+  width: 600px;
+  height: 350px;
+}
+
+.homeFooterSlider {
+  background-color: #f4e5d4;
+  padding: 30px 0;
+}
+
+.titleCenter {
+  font-weight: 400px;
+  font-size: 55px;
+  line-height: 66px;
+  align-items: center;
+  letter-spacing: 3%;
+  color: #974d24;
+  text-align: center;
+  padding: 20px;
+}
+
+.bossOne b {
+  font-size: 600px;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.bossOne .lorem {
+  font-size: 16px;
+  line-height: 16px;
+  margin: 10px 40px;
+  color: #130f02;
+}
+
+.bossButton {
+  width: 185px;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 24px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #974d24;
+  background-color: #f4e5d4;
+  color: #974d24;
+  margin: 80px;
+  transition: 1s;
+}
+
+.bossButton:hover {
+  background: #974d24;
+  color: #ffffff;
+  cursor: pointer;
+  transform: 500s;
+}
+
+.sectionSlider {
+  background-color: #f4e5d4;
+}
+
+.sectionSlider img {
+  height: 350px;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.slider .iconLeft i {
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  font-size: 2rem;
+  color: center;
+  color: #d2aa67;
+}
+
+.slider .iconRight i {
+  position: relative;
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  font-size: 2rem;
+  color: center;
+  color: #d2aa67;
+}
+
+.vinoAgdam {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 23px;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.imagesDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.imagesDiv img {
+  width: 80px !important;
+  height: 350px;
+}
+
+.sliderImages img {
+  margin: 0 auto;
+}
+
+.sliderBtnDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.vinoTerkib {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.vinoImage {
+  background-image: url("./images/giff\ 1.png");
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: cover;
+}
+
+.Vino {
+  position: absolute;
+  max-width: 450px;
+  top: 30px;
+  left: 30px;
+}
+
+.VinoParent {
+  position: relative;
+}
+
+.VinoParent .bossButton {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.VinoParent .bossButton:hover {
+  background: #fff;
+  color: red;
+  cursor: pointer;
+  transform: 500s;
+}
+
+.VinoHead {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+  color: #fafafd;
+}
+
+.Vino .lorem {
+  color: #fafafd;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.BrendSection {
+  background-color: #f4e5d4;
+}
+
+.BrendSectionPerent {
+  position: relative;
+}
+
+.azeSerab {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+
+.rusSerab {
+  position: absolute;
+  bottom: 10%;
+  right: -10%;
+}
+
+.azeSerab h3 {
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 60px;
+  color: #fafafd;
+  max-width: 300px;
+}
+
+.rusSerab h3 {
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 60px;
+  color: #fafafd;
+  max-width: 300px;
+}
+
+.BrendImages .bossButton {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 30px;
+}
+
+.BrendImages .bossButton:hover {
+  background: #fff;
+  color: red;
+  cursor: pointer;
+  transform: 500s;
+}
+
+.footerTop {
+  background-color: #e7d2bb;
+}
+
+.footerAll {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerLeft {
+  display: flex;
+}
+
+.footerLeft a {
+  padding: 10px;
+  text-decoration: none;
+  color: #292929;
+}
+
+.footerLeftOne {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px;
+}
+
+.footerLeftTwo {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.footerRight {
+  display: flex;
+}
+
+.footerRight p {
+  padding: 10px;
+  padding-left: 40px;
+}
+
+.footerRight a {
+  text-decoration: none;
+  color: #292929;
+}
+
+.footerAll a:hover {
+  color: #fff;
+}
+
+.footerRightOne {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px;
+}
+
+.footerIcone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 40px;
+}
+
+.footerIcone i {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #f4e5d4;
+}
+
+.footerBotton {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.footerBottonP {
+  margin: auto 40px;
+}
+
+.product {
+  background-image: url("./images/unsplash_CPMZguYURMw.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.productTitle {
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 78px;
+  text-align: center;
+  color: #fff;
+  padding: 20vh;
+}
+
+.productSection {
+  background-color: #f4e5d4;
+  display: flex;
+}
+
+.productsAll {
+  display: flex;
+
+  width: 100%;
+}
+
+.col-4 {
+  width: 25%;
+}
+
+.sticky {
+  position: sticky;
+  top: 50px;
+}
+
+.stikyhead {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.dropdownIcon {
+  display: flex;
+}
+
+.dropdownIcon .btn-down {
+  display: flex;
+  height: 21px;
+  width: 21px;
+  font-size: 21px;
+  margin-right: 5px;
+  color: #d2aa67;
+  transition: 0.3s;
+}
+
+.labelCheckbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.labelCheckbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.labelCheckbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.labelCheckbox input:checked ~ .checkmark {
+  background-color: #d2aa67;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.labelCheckbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.labelCheckbox .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.list-item {
+  display: none;
+}
+
+.open ~ .list-item {
+  display: block;
+}
+
+#li_icon_dropdown.open .btn-down {
+  transform: rotate(-180deg);
+}
+
+#li_icon_dropdown_bottom.openn .btn-down {
+  transform: rotate(-180deg);
+}
+
+.list-item-bottom {
+  display: none;
+}
+
+.openn ~ .list-item-bottom {
+  display: block;
+}
+
+.col-4 .stikyhead h2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  color: #4c192a;
+  margin-bottom: 10px;
+}
+
+.col-4 .stikyhead a {
+  text-decoration: none;
+  color: #4c192a;
+  margin-right: 10px;
+}
+
+.col-4 .stikyhead a:hover {
+  color: grey;
+}
+
+.col-4 .sticky ul li {
+  list-style: none;
+  margin: 10px;
+  color: #4c192a;
+}
+
+.col-8 {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.col-8 .images {
+  width: 33%;
+  border: 1px solid #e7d2bb;
+  border-bottom: none;
+  border-top: none;
+}
+
+.about {
+  background-color: #f4e5d4;
+}
+
+.aboutTop {
+  display: flex;
+  padding: 60px 0;
+}
+
+.AboutLeft {
+  width: 50%;
+}
+
+.AboutLeft img {
+  height: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.AboutRight {
+  width: 50%;
+}
+
+.cullen {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 60px;
+  color: #974d24;
+}
+
+.loremm {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #4c192a;
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e7d2bb;
+}
+
+.headH3 {
+  font-weight: 400px;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 2%;
+  color: #974d24;
+}
+
+.aboutCard {
+  display: flex;
+}
+
+.card {
+  border: 1px solid #e7d2bb;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.card .loremm {
+  border: none;
+}
+
+.haqqinda {
+  background-color: #f4e5d4;
+}
+
+.goAbout ul {
+  display: flex;
+  padding: 20px;
+}
+
+.goAbout li {
+  margin: 0 20px;
+  list-style-type: none;
+  color: #4c192a;
+}
+
+.goAbout a {
+  text-decoration: none;
+}
+
+.newSection {
+  background-color: #f4e5d4;
+  padding: 50px 0;
+}
+
+.newsFreme {
+  max-width: 500px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.abrauWinonah {
+  font-weight: 400;
+  line-height: 32px;
+  font-size: 30px;
+  letter-spacing: 2%;
+  color: #974d24;
+  margin: 40px 20px;
+}
+
+.Alkaqolsuz {
+  color: #4c192a !important;
+}
+
+.sectionNews {
+  background-color: #f4e5d4;
+  padding: 70px 0;
+}
+
+.newsTam {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.newsEsas {
+  position: relative;
+  width: 500px;
+  gap: 10px;
+}
+
+.newsEsas img {
+  max-width: 500px;
+}
+
+.newsBasliq h3 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+  width: 250px;
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 20px;
+}
+
+.newsBasliq p {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+}
+
+.aboutPage {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 200px;
+}
+
+.aboutPage h2 {
+  font-weight: 700;
+  font-size: 250px;
+  line-height: 300px;
+  text-align: center;
+  color: #ddc6ae;
+}
+
+.aboutPageQuestion {
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 65px;
+  color: #974d24;
+}
+
+.aboutPageImage {
+  max-width: 700px;
+  height: 400px;
+  margin: 20px;
+}
+
+.aboutPageParagraf {
+  width: 800px;
+  background: #e7d2bb;
+  opacity: 0.5;
+  bottom: 0;
+  left: auto;
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
+  color: #292929;
+  text-align: center;
+  opacity: 1;
+  padding: 40px;
+}
+
+.mukafat {
+  width: 120px !important;
+  height: 150px !important;
+  object-fit: fill;
+}
+.mukafatParaqraf {
+  font-weight: 400;
+  font-size: 16px;
+  color: #292929;
+  line-height: 19px;
+  margin-top: 20px;
+  width: 150px;
+}
+
+.haqqindaSection {
+  background-color: #f4e5d4;
+  padding: 50px 0;
+}
+
+.mundis {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #974d24;
+  margin: 20px;
+  padding-top: 30px;
+}
+
+.mundisVini {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.mapSection {
+  background-color: #f4e5d4;
+  padding: 50px 0;
+}
+
+.mapSectionEsas {
+  display: flex;
+  gap: 50px;
+}
+.mapSectionScroll {
+  height: 300px;
+  padding: 20px;
+  overflow: scroll;
+  overflow-x: hidden;
+ 
+}
+.flial {
+  margin-bottom: 20px;
+  border-top: 1px solid #E7D2BB;
+  padding-top: 10px;
+}
+.iframes .active{
+  display: block !important;
+}
+.iframes iframe{
+  display: none;
+}
+.mapSectionScroll::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.mapSectionScroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.mapSectionScroll::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.mapSectionScroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.flialBasliq {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+  color: #974d24;
+}
+.flialkuce {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4c192a;
+}
+.tel {
+  font-size: 16px;
+  line-height: 16px;
+  color: #4c192a;
+}
+.mapSea {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4c192a;
+  text-align: right;
+  text-decoration: underline;
+}
